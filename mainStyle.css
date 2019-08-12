@@ -7,13 +7,13 @@
   }
   
   /* On mouse-over, add a deeper shadow */
-  .card:hover {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
   /* Add some padding inside the card container */
   
-  .container {
+.container {
     padding: 2px 16px;
   }
   
@@ -31,4 +31,8 @@
     padding: 20px; 
     width: 200px;
     height: 150px; 
+  }
+
+  .body {
+    font-family:'Open Sans', "Helvetica Neue", Arial, sans-serif !important;
   }
