@@ -47,7 +47,21 @@
             <source src="" type="">
               Your browser does not support the audio file.
           </audio>
-            <h5 class="w3-padding-32">Transcript</h5>
+            <h5 class="w3-padding-32">RSA, named after the designers Ron Rivest, Adi Shamir, and Leonard Adleman, is a public-key cryptosystem that is very widely used. A 
+              public-key cryptosystem is a system where there is a public encryption key that is available to everyone, and there is a secret private decryption key. RSA is 
+              based on the difficulty that comes from factoring the product of two prime numbers.The RSA algorithm consists of four steps: key generation, key distribution, 
+              encryption, and decryption. The first step, key generation, consists of choosing two, large prime numbers and computing the values to be used to find the public 
+              and private keys. The second step, key distribution, consists of distributing the public and private keys. The public keys arethe product of the two large prime 
+              numbers and a coprime integer value that is between 1 and the value of Carmichael’s totient function for the first public key. The private key is the modular 
+              multiplicative inverse of the coprime integer modulo the valueof Carmichael’s totient function for the product of the two prime numbers. In simpler terms, you will 
+              only share two values that were found in key generation, and you will keep one value secret.The third step, encryption, involves converting a message toan integer 
+              according to the padding scheme, an agreed-upon reversible protocol. With this integer, the plaintext, one uses the public keys as parameters for modular exponentiation 
+              to generate the ciphertext.The fourth step, decryption, involves using theciphertext as well as the public and private keys to reverse the encryption process based on 
+              modular congruency. Once the necessary calculations are done, the ciphertext will be converted to plaintext, and the padding scheme can be reversed to get the original 
+              message.RSA is important today because it allows people to securely send messages in a way that is not easily reversed. By depending on the difficulty of factoring the 
+              product of two prime numbers as well as the irreversibility of modular exponentiation, one can send critical information with little fear of it being decrypted by 
+              unknown malicious parties. RSA encryption and decryption are often too slow to convey large amounts of user data but are instead used to hide codes that can be used 
+              for symmetric key encryption.</h5>
           </div>
           </div>
         </div>
